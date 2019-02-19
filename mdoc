@@ -1,0 +1,41 @@
+echo
+echo
+echo ===== CLEANING UP OLD TEMP FILES =========
+echo
+echo
+#./cleanup.sh
+
+echo
+echo
+echo ===== RUNNING PDFLATEX 1st TIME ==========
+echo
+echo
+/usr/texbin/pdflatex main
+
+echo
+echo
+echo ===== RUNNING BIBTEX FOR REFS ============
+echo
+echo
+/usr/texbin/bibtex main
+
+echo
+echo
+echo ===== RUNNING PDFLATEX 2nd TIME ==========
+echo
+echo
+/usr/texbin/pdflatex main
+
+echo
+echo
+echo ===== RUNNING PDFLATEX 3rd TIME FOR REFS ===
+echo
+echo
+/usr/texbin/pdflatex main
+
+echo
+echo
+echo DONE!
+echo
+echo
+

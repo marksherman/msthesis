@@ -1,0 +1,139 @@
+\chapter{Discussion}
+One behavior that emerged as a critical component to design is iteration. The literature supports that iterative design cycles are critical for design tasks across academics, children, and industry. \citet{atman-1999} showed that senior college-level design students iterated far more than their underclassmen counterparts. \citet{eckert09} reasoned that iteration is critical in industry, and should be practiced more than it is. \citet{dow09} provides the most compelling conclusion, stating that iteration helps designers achieve as well as domain knowledge could afford them without iteration. 
+
+In this study, the iterative nature of the different students was accessible for investigation. By analyzing the schedule by which students test and modify their solutions, patterns were identified with design success and characteristics of the activities themselves. 
+
+Chapter~\ref{chap:analysis} illustrated the iteration patterns for each individual activity. Where each session presented a different type of design task, comparing activities by iteration count is not valid. The percentage of time spent in introduction is scaled based on the total time spent on the activity, making this metric portable between activities. The introduction time, or non-iterating time, characterizes what percent of the student's total time during the session was spent before they performed their first test. It is posited that this time was used for learning about the problem and performing initial construction. The average times for the three numerically analyzed activities are given in Table~\ref{tab:average-intro-times}. 
+
+Information can be gained about the overall performance of the students. Table~\ref{tab:success-correlations} shows the three student dyads with their overall success rating, non-iteration time, and time per iteration. The overall success rating comes from the combined success rating of the three activities that were numerically analyzed: Light Optimization, Gear Reduction, and Elevator Control. As previously discussed in Section~\ref{sec:success-levels}, each activity had two levels of success. Achieving the first level represents the completion of a successful design that solves the problem. Achieving the second level represents synthesizing a general process for arriving at a solution. Students that obtained the first level scored a single rating point for the activity. Those who achieved the second level obtained an additional point, totaling two for the activity. The maximum rating for three activities was six points, shown as the denominator for dyads A/B and C/D. The third pair only participated in two of the activities, so that group's maximum rating was four. 
+
+The average non-iterating time for each group is presented in Table~\ref{tab:success-correlations}, where the percentage shown is the amount of time that elapsed before the first tests. The standard deviation of this metric is included as well. Based on that information, dyad C/D not only spent more time on average in pre-iteration, but did so with greater consistency than group A/B. The number present for group E/F only includes the Light Optimization activity, as it is the only one they completed. Average time per iteration includes all iteration cycles made across all three activities. The most successful dyad shows not only the shortest time per iteration, but the most consistency in those times.
+
+
+\begin{table}
+\begin{centering}
+\begin{tabular}{l c c c}
+	%\multicolumn{4}{l}{{\large Elevator Control Specifications}} \\
+	\toprule
+							& Light Opt.	& Gear Reduction	& Elevator Control	\\ \midrule
+	Average Non-Iterating time 	& 25.5\%	& 28.6\%	& 35.8\% 	\\ \midrule
+	Standard Deviation 			& 7.0 & 13.0 & 13.5 \\ 
+	\bottomrule
+\end{tabular}
+\caption[Average non-iterating times for each activity.]{Average non-iterating times for each activity. These data do not include instances where students did not complete an activity.}
+\label{tab:average-intro-times}
+\end{centering}
+\end{table}
+
+\begin{table}
+\begin{centering}
+\begin{tabular}{l c c c}
+	%\multicolumn{4}{l}{{\large Elevator Control Specifications}} \\
+	\toprule
+							& A/B 	& C/D	& E/F	\\ \midrule
+	Overall Success Rating          	& 3/6		& 5/6 		& 1/4		\\ \midrule
+	Average Non-Iterating time 	& 14.4\%	& 37.9\%	& incomplete/4.9\% 	\\ \midrule
+	\emph{StdDev Non-Iterating time}	& \emph{6.0}	& \emph{2.7}	& 					\\ \midrule
+	Average time per iteration 	& 7.8 min & 3.8 min & incomplete/6 min \\ \midrule
+	\emph{StdDev Av time per iteration}	& \emph{7.8}	& \emph{3.1}	& 					\\ 
+	\bottomrule
+\end{tabular}
+\caption[Correlations of success to iteration time.]{Success correlations with non-iterating time and average time per iteration based on three activities. Group E/F participated in, but did not complete, the Gear Reduction activity and did not participate in the Elevator Control activity. That group's listings for non-iterating time and time per iteration considers only the one activity they completed: Light Optimization. }
+\label{tab:success-correlations}
+\end{centering}
+\end{table}
+
+% This table is BAD data. I only leave it here for it's awesome formatting, which could come in handy.
+%\begin{table}
+%\begin{centering}
+%	\begin{tabular}{c | r l | r l | r l |}
+%	\cline{2-7}
+%	& \multicolumn{6}{c|}{Student Dyads} \\ \cline{2-7}
+%	& \multicolumn{2}{c}{A,B}  & \multicolumn{2}{|c|}{C,D} & \multicolumn{2}{c|}{E,F} \\ \cline{1-7}
+%	
+%	\multicolumn{1}{|c|}{\multirow{3}{*}{Lights}} 		& prep 	& 21\% 	& prep 	& 35\% 	& prep 	& 20\% \\
+%		\multicolumn{1}{|c|}{} 								& count 	& 3 		& count 	& 8	 	& count 	& 7 \\
+%		\multicolumn{1}{|c|}{} 								& itime 	& 17.75 	& itime 	& 4.71 	& itime 	& 6.6 \\ \cline{1-7}
+%	\multicolumn{1}{|c|}{\multirow{3}{*}{Gears} } 		& prep 	& 16\% 	& prep 	& 42\%	& prep 	& 100\% \\
+%		\multicolumn{1}{|c|}{} 								& count 	& 7 		& count 	& 8	 	& count 	& 0 \\
+%		\multicolumn{1}{|c|}{} 								& itime 	& 5.42 	& itime 	& 3.07 	& itime 	& 0 \\ \cline{1-7}
+%	\multicolumn{1}{|c|}{\multirow{3}{*}{Elevator}} 	& prep	& 7\% 	& prep 	& 37\% 	& prep 	& 64\% \\
+%		\multicolumn{1}{|c|}{} 								& count 	& 9 		& count 	& 6 		& count 	& 5 \\
+%		\multicolumn{1}{|c|}{} 								& itime 	& 5.38 	& itime 	& 3.6 		& itime 	& 3.38 \\ \cline{1-7}
+%	
+%	\end{tabular}
+%	\caption{Characteristics of student dyads across three selected activities.}
+%	\label{tab:results3x3}
+%\end{centering}
+%\end{table}
+
+
+	
+\section{Conclusions }
+
+The data presented in Table~\ref{tab:success-correlations} shows that the most successful students were consistently slower to begin testing across all activities, indicating that they spent more time in each activity trying to understand the problem before attempting a solution. The speed of iteration also correlates with success, but not as strongly as the introductory time spent.
+
+Across the activities, there was also an overall trend in student performance data. Non-iterating time, or introductory time, was shown above to be the strongest indicator of student success in this study. Analyzing that metric for the activities across all students showed additional trends. Table~\ref{tab:average-intro-times} indicates a monotonic, positive correlation between difficulty of the activity and the exploratory time spent by all the students. The more difficult an activity was, the longer it took students to begin testing their solutions. 
+
+The strong trends of exploratory time for both individual students and specific activities indicates that this incubation period is a critical component of design and has an effect on how well the students performs their design iterations later in the session.
+
+Following, the research questions that formed the foundation of this study are revisited and directly addressed.
+
+\subsubsection{Do students exhibit patterns in testing and iteration? What are those patterns?}
+	Students showed a number of patterns in their testing habits during design. The patterns appeared to be based on a few variables. The first variable, as shown in the Light Optimization activity, was relevant prior knowledge. If a student already had a strong content knowledge from a previous experience, then that student will not require an extensive exploration phase, and will not find a need to iterate deeply. The second variable was the complexity of the problem. The more difficult the problem was, the more time students took in exploring it before they began testing cycles. This is indicated in Table~\ref{tab:average-intro-times}. The more complex activities also had a larger standard deviation of preparation time, indicating that the different students took largely different amounts of time in preparation.
+	
+\subsubsection{What characteristics of a design activity elicit specific iteration patterns?}
+	As discussed above, complexity of the design activity had an observable effect on student iteration. In addition to that, the cognitive overhead involved in constructing a theory or prototype and testing it had a significant impact. The Rush Hour game required very little overhead to play, both cognitively and physically, and students generated ideas and executed tests at rates far beyond those of the other activities. The degree of abstraction, from the purely tactile Gear Reduction activity to the purely symbolic Elevator Control activity, had no observable effect on iteration rates. Total problem difficulty appeared to be more significant than the use of symbolism towards the amount of preparation time students used. 
+	
+	In classrooms, activities are often designed to include these explicit design phases to guarantee some level of iteration, but the data of this study are inconclusive towards this practice. Students in this study created tests and made incremental improvements on their solutions in all activities, regardless of whether an iteration schedule was provided to them. The activities that included explicit design phases showed no difference in session-long iteration patterns than the activities with no set schedule. 
+	
+\subsubsection{What is the correlation between iteration in designing and success of the design?}
+	The more successful students correlated with greater introductory times and smaller deviations of iteration times. The model of the most successful student had a long period (nearly 60\% of total time spent) exploring the problem, and then proceeded to perform six to eight quick iterations in the remaining time. 
+	
+	In the Gear Reduction activity students were faced with a difficult construction task that was confounded by many physical factors. The students who conducted tests and iterations managed to overcome these difficulties, while the students who did not test never managed to understand the problem sufficiently to create a working solution. This lack of understanding is visible in the students' diagram of their solution, shown in Figure~\ref{fig:gearsEF-dia}. The diagram does not demonstrate any conceptual understanding of the meshing of gears or the construction of a supportive structure. The abstraction used in this diagram is inconsistent, showing basics of gears, chains, structure, and the load.  In contrast, Figure~\ref{fig:gearsAB-dia} shows a diagram that indicates a high level of understanding of the problem, and has abstracted it efficiently to only represent the operation of the gears.
+	
+	More can be learned from the Gear Reduction activity about testing complex systems. The most successful group had a long exploration period and quick iterations, but also managed to construct a solution faster than the other groups. One significant difference between that group and others was the use of component testing. The successful group tested individual parts of the solution one at a time, and built upon them as they were shown to work. The presence of component tests also correlated with successful designs in the Elevator Control activity. Complex systems required component-level testing for efficient development, but students may not intuitively do this. 
+
+\subsubsection{What guidelines can be written for the creation of future activities?}
+	This research question as addressed in its own section, which follows immediately.
+
+\section{Recommendations } \label{sec:recommendations}
+
+Recommendations that bear on the challenge of creating design-based engineering activities can be made from this study. 
+
+\subsubsection{Give sufficient introduction time to the problem}
+The greatest indicator of student success in both creating a working solution and a generalizable process was the time the student spent before starting testing and iteration. This time is presumably being used to explore the problem. By designing the structure of the activity to encourage students to explore, the students are more likely to gain the necessary traction to accurately manipulate the problem later in the activity.
+
+\subsubsection{One iteration is better than none, but more is even better}
+The literature strongly supports that the presence of an iterative process, even if it is a single revision, results in better solutions being generated. This study supports that finding. All students were observed achieving success in three to six iterations, but the number of revisions for a successful design depended on the complexity of the activity and the designing style of the student.
+
+\subsubsection{Put a desired skill in the critical path}
+The Light Optimization activity showed students using written algebra of their own volition in order to help their design process. The activity used a calculated score to rate the success of student designs, and that formula was given to the students at the beginning of the session. The students quickly realized that they could use that formula to help guide them through their design. In this case, the students were never prompted to perform any written algebra, but did so as it was understood to be a critical tool to achieving their goals. By designing the activity such that a desired skill (such as algebra) is in the critical path from the student to their goal, the students may have self-provided desire to use that skill.
+
+\subsubsection{Clearly frame the problem}
+The importance of the student's understanding of the task to be completed should not be underestimated. When the students clearly understood the task, such as in the Light Optimization activity, they worked efficiently and effectively. When the goal was unclear, such as in the Elevator Control activity, they became sidetracked and confused. Once the true task was understood, the students demonstrated greater competence in using resources to solve it. 
+
+\subsubsection{Use a microworld}
+Design activities should not expose the student to degrees of complexity beyond their immediate learning needs. A microworld is valuable in providing a local context in which the problem can be constrained. The term is generally used for software simulations, where the only relationships involved are explicitly put there by the simulation's creator, but it can also be applied to physical activities. The complex building skills necessary for the Gear Reduction activity could be reduced by providing a ``gear wall" where gears can be placed onto pre-made pegs and holes. This approach would abstract away the construction element, and provide pre-calculated axle distances to ensure proper gear meshing. The student would not have to worry about those factors in the design.
+
+\section{Future Work}
+
+New methods for characterizing and analyzing design behaviors, specifically testing and iteration, were created in this project. These methods can be used in future work to characterize additional design behaviors. The analytical techniques presented here can be used to further study the incubation or exploration period of problem solving, student self-assessment of design, and general cognitive strategies for engineering. There is not yet a definitive list of behaviors or strategies that make up design. Additional elements of design methodology may be defined in the future, and the methods developed here can be used to analyze them.
+
+This work examined how students naturally employ iteration, one of the critical elements of the design process. This study did not investigate why the student chose to conduct a test, only when. To gain further insight into how novices solve design problems, the driving factors behind those iterations need to be identified and explored. One likely factor is a self-assessment mechanism employed by the students to know when and how to conduct a test. Student assessment of their solution and their process during the activity can be tested using methods similar to those of this study, and is yet unexplored. 
+
+Exploring the tacit motivations behind design iteration and process will yield a deeper understanding of why design processes fit the models previously mentioned. Future work will result in a more complete set of behavior patterns that contribute to a good design process. Teaching these skills explicitly to students will aid them in assessing their own design tendencies, and help them become better designers. Also, from these patterns, a tool could be created that may help in the design of student design activities, providing a guide for creating activities that elicit specific iteration behaviors from students.
+
+%\subsection{Notes on Light Optimization activity}
+%The total cost of the system, which is the student's score of success, uses the number of lights in the system as a dividing term. By adding more lights the overall cost could be greatly reduced. Students utilized this behavior more than was expected, so it should be further explored by researchers before being deployed again. 
+%
+%Students stated multiple times that this activity was fun and that they liked it. One student likened it to hot wiring a car (which it is really nothing like), but the student found ``cool." 
+%
+%After each phase students were instructed to draw the circuit they had made. This failed, as students were entirely unmotivated to draw. Exactly why this is the case should be further examined, and the activity can then be modified to create improved documentation procedures. It is possible that the needed drawing skills could be taught in a preparatory session, much like \citet{lesh03} suggest.
+%
+%Additional circuit theory could be taught in a preparatory session, which should help the 1-wire misconception discussed above. This session could also include introduction of the safety protocol regarding the power supply units.
+%
+%The question ``what did we find out?" should be added to the group discussion prompts.
+%
+%\subsection{Notes on Elevator Control activity}
+%The simulator should be further simplified and stabilized before any future use. In the current version, every time the elevator services a floor a new menu appears representing call buttons inside the car. The purpose of this feature was to simulate the request a person makes once they enter the elevator. This feature interrupted the workflow of the students, as the behavior of the panel suddenly appearing is not obvious. Part of why it is unexpected is that it can not properly serve its purpose: there is no mechanism in the simulator to track if a person is entering or leaving the elevator at any floor. The internal panel would only be used, in reality, when a person was entering the car, and it would be ignored when the person is leaving. The simulator lacks a concept of a person entering or exiting, so the feature of the internal panel does not need to be included. Abstracting both internal and external calls to one set of buttons will be sufficient to express any scenario desired in this microworld.

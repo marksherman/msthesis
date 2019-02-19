@@ -1,0 +1,17 @@
+TODO
+
+Description of some tests off the charts, and why they are tests.
+
+conclusions Rush Hour easy/ kids had prev experience (new discrimination)
+
+
+
+
+Removed from Ch1.Approach 
+The time intervals between tests was the primary variable being investigated.
+
+Removed from Chap2 Background
+With more emphasis being put on technology in education, the development of computational thinking \citep{p33-wing} becomes important. Computational thinking is the collection of concepts, skills, and abstractions people need to best leverage computers and technology as an aid in human knowledge development. Thinking computationally is difficult, but with it people are able to solve new problems with the help of computation theory. 
+
+Removed from Ch4 Rush Hour Summary
+The iterations observed in this activity are not considered design iterations, as there is no solution to be tested against the world. No new information about the problem is gained from these iterations. The only information learned is about the space of the particular puzzle level being solved.
